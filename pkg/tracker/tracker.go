@@ -9,7 +9,7 @@ type Tracker interface {
 type TrackerClient struct {
 }
 
-func NewTrackerClient() *TrackerClient {
+func NewTrackerClient() Tracker {
 	return &TrackerClient{}
 }
 
